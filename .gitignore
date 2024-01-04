@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.angular/cache/15.2.6
+/.vs/Angular-hello-word-MyStore/FileContentIndex
+/.vs/Angular-hello-word-MyStore/v17
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite

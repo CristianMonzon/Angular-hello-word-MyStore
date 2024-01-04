@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 
 export class TopBarComponent {
-  title = 'My Store'
+  title = 'My Store Demo Application'
 }
 
 
