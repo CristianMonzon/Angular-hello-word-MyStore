@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+
 
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
+import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
-
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
-
 import { ProductDetailsComponent } from './product-details/product-details.component';
-
-import { HttpClientModule } from '@angular/common/http';
 import { ShippingComponent } from './shipping/shipping.component';
 import { CartComponent } from './cart/cart.component';
+
 
 @NgModule({
   imports: [
@@ -35,7 +35,7 @@ import { CartComponent } from './cart/cart.component';
     ProductAlertsComponent,
     ProductDetailsComponent,
     CartComponent,   
-    ShippingComponent 
+    ShippingComponent, BottomBarComponent 
   ],
   bootstrap: [AppComponent],
 })
